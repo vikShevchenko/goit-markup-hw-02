@@ -11,12 +11,7 @@
 }
 /*------------------------------------------------------------*/
 
-ul {
-}
-
 .body {
-  width: 1600px;
-
   font-family: var(--mainfont) Verdana, Geneva, Tahoma;
   color: var(--text-color);
 }
@@ -51,12 +46,9 @@ ul {
 .logo {
   padding-top: 25px;
   padding-bottom: 25px;
-  margin-top: 0;
-  margin-bottom: 0;
   margin-right: 90px;
 
   font-family: var(--logofont);
-  font-style: normal;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
@@ -69,7 +61,6 @@ ul {
   display: flex;
   padding-left: 0;
 
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.1;
@@ -87,7 +78,6 @@ ul {
 }
 
 .menu-link {
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.1;
@@ -111,7 +101,6 @@ ul {
 }
 
 .menu-number {
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.1;
@@ -136,7 +125,6 @@ ul {
   padding-top: 200px;
   text-align: center;
 
-  font-style: normal;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.4;
@@ -161,7 +149,7 @@ ul {
   border-radius: 5px;
 
   padding: 10px 32px;
-  font-style: normal;
+
   font-weight: 700;
   font-size: 16px;
   line-height: 1.9;
@@ -184,16 +172,13 @@ ul {
   list-style: none;
 }
 .cadvantages h3 {
-  font-style: normal;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.1;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  /* color: #212121; */
 }
 .advantages p {
-  font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 24px;
@@ -203,13 +188,12 @@ ul {
 /*------------------------------------------------------------*/
 /*Задачи*/
 .task-text {
-  font-style: normal;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.2;
   text-align: center;
   letter-spacing: 0.03em;
-  /* color: #212121; */
+
   margin-bottom: 50px;
 }
 .task-photo {
@@ -226,13 +210,12 @@ ul {
   background-color: var(--team-color);
 }
 .team-text {
-  font-style: normal;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.2;
   text-align: center;
   letter-spacing: 0.03em;
-  /* color: #212121; */
+
   padding-top: 95px;
   margin-bottom: 50px;
 }
@@ -246,13 +229,11 @@ ul {
   list-style: none;
 }
 .team-photo h3 {
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.2;
   text-align: center;
   letter-spacing: 0.03em;
-  /* color: #212121; */
 }
 .team-photo > li {
   background-color: var(--background-main);
@@ -359,7 +340,7 @@ ul {
   line-height: 1.6;
   text-align: center;
   letter-spacing: 0.03em;
-  /* color: #212121; */
+
   background: #f5f4fa;
   border-radius: 4px;
   cursor: pointer;
